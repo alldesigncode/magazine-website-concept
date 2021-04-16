@@ -1,0 +1,21 @@
+:root {
+  --default-font: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--default-font);
+  overscroll-behavior: none;
+  background-color: #0d0d0d;
+}
