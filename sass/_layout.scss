@@ -12,7 +12,7 @@
 
     .logo {
       flex: 0 0 200px;
-      color: #fff;
+      color: $white;
       text-transform: uppercase;
       text-align: center;
     }
@@ -41,7 +41,7 @@ section.articles {
 
     &__title {
       position: absolute;
-      color: #ececec;
+      color: $light1;
       font-family: inherit;
       font-weight: 500;
       font-size: 50px;
@@ -71,7 +71,7 @@ progress::-webkit-progress-bar {
   background-color: $white;
 }
 progress::-webkit-progress-value {
-  background-color: #d43449
+  background-color: $pink;
 }
 progress::-moz-progress-bar {
   background-color: $white;
